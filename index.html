@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"
+	 content="
+     	width=device-width,
+        height=device-height,
+        initial-scale=1.0,
+        minimum-scale=1.0,
+        maximum-scale=1.0,
+        user-scalable=no
+        " />
+
+<link href="styles/2048.css" rel="stylesheet" type="text/css"/>
+
+<script src="scripts/jquery-1.7.1.js" type="text/javascript"></script>
+<script src="scripts/main2048.js" type="text/javascript"></script>
+<script src="scripts/showAnimation.js" type="text/javascript"></script>
+<script src="scripts/support2048.js" type="text/javascript"></script>
+
+<title>2048</title>
+</head>
+
+<body>
+	<header>
+    	<h1>2048</h1>
+        <a href="javascript:newGame();" id="newgamebutton">New Game</a>
+        <p>score:<span id="score">0</span></p>
+    </header>
+   
+    <div id="grid_container">
+  		<div class="grid_ceil" id="grid_ceil_0_0"></div>
+        <div class="grid_ceil" id="grid_ceil_0_1"></div>
+        <div class="grid_ceil" id="grid_ceil_0_2"></div>
+        <div class="grid_ceil" id="grid_ceil_0_3"></div>
+        
+        <div class="grid_ceil" id="grid_ceil_1_0"></div>
+        <div class="grid_ceil" id="grid_ceil_1_1"></div>
+        <div class="grid_ceil" id="grid_ceil_1_2"></div>
+        <div class="grid_ceil" id="grid_ceil_1_3"></div>
+        
+        <div class="grid_ceil" id="grid_ceil_2_0"></div>
+        <div class="grid_ceil" id="grid_ceil_2_1"></div>
+        <div class="grid_ceil" id="grid_ceil_2_2"></div>
+        <div class="grid_ceil" id="grid_ceil_2_3"></div>
+        
+        <div class="grid_ceil" id="grid_ceil_3_0"></div>
+        <div class="grid_ceil" id="grid_ceil_3_1"></div>
+        <div class="grid_ceil" id="grid_ceil_3_2"></div>
+        <div class="grid_ceil" id="grid_ceil_3_3"></div>
+    </div>
+ 
+</body>
+</html>
